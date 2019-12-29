@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="logo_icon.JPG" type="image/x-icon"/>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Printricity</title>
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-md">
+  <a class="navbar-brand" onclick="redirect('index')">
+  </a>
+  <button 
+     class="navbar-toggler " onclick="showOrHide()">
+        <span class="line"></span> 
+        <span class="line"></span> 
+        <span class="line" style="margin-bottom: 0;"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" onclick="redirect('index')">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" onclick="redirect('whatwedo')">WHAT WE DO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" onclick="redirect('contact')">CONTACT</a>
+      </li>
+	  <li class="nav-item active">
+        <a class="nav-link" onclick="redirect('faq')">MICROSOFT STACK</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+ <div>
+      <h1 class="headline">PRINTRICITY: <br> Powering the Modern Workplace</h1>
+ </div>
+
+  <h2 class="headline"> Microsoft Technologies</h2>
+
+ <div class="container padding-top-60">
+	<div class="row">
+		<div class="col-12 col-md-6"> 
+			<h4>Azure</h4>
+				<p> Azure is a cloud based computing service used by developers for building, testing, deploing and general maintenance of systems and applications.</p>
+		</div>
+		<div class="col-12 col-md-6"> 
+			<h4>Dynamics CRM</h4>
+				<p>Customer Relationship Management lays at the heart of every organisation. Microsoft Dynamics CRM will reinvent the way your business interacts and maintains client relationships.</p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-12 col-md-6"> 
+			<h4>SharePoint</h4>
+				<p>Microsoft SharePoint is a platform, which assist companies in content management and aids organisational collaboration.</p>
+		</div>
+		<div class="col-12 col-md-6"> 
+			<h4>Skype</h4>
+				<p>Skype is a reliable communication tool for internal and external telecommunication, compatible with a variety of devices.</p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-12 col-md-6"> 
+			<h4>Exchange</h4>
+				<p>Microsoft Exchange Server is a flexible and secure mail and calendaring service, with hosted email for business.</p>
+		</div>
+		<div class="col-12 col-md-6"> 
+			<h4>OneDrive</h4>
+			<p>A cloud-based storage service, which allows your business to store and access files securely from anywhere in the world, by multiple users.</p>
+		</div>
+	</div>
+</div>
+
+<script src="external.js"></script>
+
+</body>
+</html>
